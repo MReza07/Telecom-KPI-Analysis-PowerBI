@@ -1,6 +1,6 @@
 # Telecom-KPI-Analysis-PowerBI
+
 Power BI dashboard analyzing Telecom KPIs  to detect issues and guide network optimization
-# Telecom KPI Monitoring & Performance Analysis — Power BI
 
 
 ## 📌 Short description
@@ -62,7 +62,9 @@ DIVIDE(
 )
 
 
-🚀 How to Open the Dashboard
+
+
+## 🚀 How to Open the Dashboard
 
 Navigate to the PBIX folder
 
