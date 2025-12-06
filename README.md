@@ -72,7 +72,7 @@ Click Download → Raw to download the .pbix file
 Open it using Power BI Desktop
 
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 Power BI Desktop
 
@@ -84,11 +84,11 @@ Excel Dataset
 
 Interactive Visual Analytics
 
-📜 License
+## 📜 License
 
 This project is distributed under the MIT License.
 
-📬 Contact
+## 📬 Contact
 
 Md. Rezaul Repon
 
