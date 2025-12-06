@@ -2,11 +2,6 @@
 Power BI dashboard analyzing Telecom KPIs  to detect issues and guide network optimization
 # Telecom KPI Monitoring & Performance Analysis — Power BI
 
-**Project type:** Power BI | Telecom KPI Analysis  
-**Author:** Md Reazul Repon  
-**Contact:** reazulrepon@gmail.com | https://github.com/MReza07
-
----
 
 ## 📌 Short description
 A Power BI dashboard for monitoring and analyzing telecom network performance across regions and technologies (2G/3G/4G). The dashboard tracks core KPIs such as **Total Traffic (GB)**, **Call Drop Rate (CDR)**, **Call Setup Success Rate (CSSR)**, **Handover Success Rate (HOSR)**, **Availability (%)**, **Downtime (Min)** and **VoLTE MOS**, and visualizes customer complaint correlations.
@@ -21,23 +16,19 @@ A Power BI dashboard for monitoring and analyzing telecom network performance ac
 
 ---
 
-## 📁 Repository structure
+📂 Project Structure
 
----
+Telecom-KPI-Analysis-PowerBI
 
-## 🛠 Tools & Tech
-- Power BI Desktop (PBIX)  
-- DAX, Power Query (M)  
-- Excel (data prep)  
-- (Optional) Python / SQL for preprocessing
+├── Telecom KPI Analysis.pbix
 
----
+│   Telecom_KPI_data_set.xlsx
 
-## 🧩 Data & privacy
-- The full original dataset contains proprietary telecom data and is **not** public.  
-- `data_sample/sample_dataset.csv` contains an **anonymized sample** and the table schema to reproduce the analysis.
 
----
+│   Telwcom KPI Analysis Report.JPG
+
+│
+└── 📄 README.md
 
 ## 📊 Dashboard features & visuals
 - KPI cards: Total Traffic (GB), Total Dropped Calls, Downtime %, Average Availability, Daily Downtime (Min)  
@@ -69,3 +60,41 @@ DIVIDE(
     CALCULATE(COUNTROWS('Dataset'), 'Dataset'[SLA_Compliance] = "Yes"),
     CALCULATE(COUNTROWS('Dataset'))
 )
+
+
+🚀 How to Open the Dashboard
+
+Navigate to the PBIX folder
+
+Click Download → Raw to download the .pbix file
+
+Open it using Power BI Desktop
+
+
+🛠️ Tools & Technologies
+
+Power BI Desktop
+
+Power Query (ETL & Data Cleaning)
+
+DAX (Measures & Modeling)
+
+Excel Dataset
+
+Interactive Visual Analytics
+
+📜 License
+
+This project is distributed under the MIT License.
+
+📬 Contact
+
+Md. Rezaul Repon
+
+Data Analyst – Power BI | SQL | Python
+
+📧 Email: reazulrepon@gmail.com
+
+🔗 GitHub: https://github.com/MReza07
+
+
