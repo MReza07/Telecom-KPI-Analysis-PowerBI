@@ -41,8 +41,10 @@ Telecom-KPI-Analysis-PowerBI
 
 ---
 
-## ✅ Key DAX measures (examples)
-```DAX
+## ✅ Key DAX measures 
+
+DAX
+
 Total Traffic (GB) =
 SUM('Dataset'[Total_Traffic_GB])
 
@@ -60,9 +62,6 @@ DIVIDE(
     CALCULATE(COUNTROWS('Dataset'), 'Dataset'[SLA_Compliance] = "Yes"),
     CALCULATE(COUNTROWS('Dataset'))
 )
-
-
-
 
 ## 🚀 How to Open the Dashboard
 
